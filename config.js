@@ -1,5 +1,5 @@
 export const botTextsPTBR = {
-    welcome: 'Olá! Seja bem vindo(a) a clínica elimed ⚕️ Como podemos lhe ajudar?',
+    welcome: 'Olá! Seja bem vindo(a) a clínica elimed ⚕️ \nComo podemos lhe ajudar?',
 
 
     initialMenuOptionsButtons: [
@@ -16,7 +16,7 @@ export const botTextsPTBR = {
         },
         {
             "buttonText": {
-                "displayText": "3. Agendar Consulta"
+                "displayText": "3. Cancelar Consulta"
             }
         },
         {
@@ -24,5 +24,7 @@ export const botTextsPTBR = {
                 "displayText": "4. Tirar dúvidas"
             }
         } 
-    ] 
+    ],
+
+    initialMenuOptions: '1️⃣ Agendar Consulta \n 2️⃣ Ver minhas consultas \n 3️⃣ Cancelar Consulta \n 4️⃣ Tirar Dúvidas'
 }
