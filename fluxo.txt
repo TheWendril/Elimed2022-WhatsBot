@@ -1,0 +1,2 @@
+Dá as boas vindas
+Selecionar opções: Agendar consulta, Ver minhas consultas, Cancelar consulta, Tirar dúvidas

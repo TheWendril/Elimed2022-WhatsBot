@@ -1,0 +1,37 @@
+2022/02/24-17:44:35.365 25f0 Reusing MANIFEST /home/wendril/Área de Trabalho/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/24-17:44:35.366 25f0 Recovering log #549
+2022/02/24-17:44:35.435 25f0 Reusing old log /home/wendril/Área de Trabalho/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000549.log 
+2022/02/24-17:45:33.017 2618 Level-0 table #569: started
+2022/02/24-17:45:33.100 2618 Level-0 table #569: 1280315 bytes OK
+2022/02/24-17:45:33.182 2618 Delete type=0 #549
+2022/02/24-17:45:33.183 25f9 Compacting 1@0 + 0@1 files
+2022/02/24-17:45:33.245 25f9 Generated table #570@0: 21688 keys, 567224 bytes
+2022/02/24-17:45:33.254 25f9 Generated table #571@0: 2288 keys, 45541 bytes
+2022/02/24-17:45:33.254 25f9 Compacted 1@0 + 0@1 files => 612765 bytes
+2022/02/24-17:45:33.263 25f9 compacted to: files[ 0 2 14 0 0 0 0 ]
+2022/02/24-17:45:33.264 25f9 Compacting 1@1 + 10@2 files
+2022/02/24-17:45:33.479 25f9 Generated table #572@1: 42082 keys, 2266041 bytes
+2022/02/24-17:45:33.554 25f9 Generated table #573@1: 11228 keys, 2169853 bytes
+2022/02/24-17:45:33.691 25f9 Generated table #574@1: 2719 keys, 2144030 bytes
+2022/02/24-17:45:33.748 25f9 Generated table #575@1: 4084 keys, 2160219 bytes
+2022/02/24-17:45:33.808 25f9 Generated table #576@1: 4603 keys, 2160074 bytes
+2022/02/24-17:45:33.924 25f9 Generated table #577@1: 30808 keys, 2231619 bytes
+2022/02/24-17:45:34.045 25f9 Generated table #578@1: 28611 keys, 2259119 bytes
+2022/02/24-17:45:34.119 25f9 Generated table #579@1: 12672 keys, 2148755 bytes
+2022/02/24-17:45:34.183 25f9 Generated table #580@1: 8978 keys, 2133086 bytes
+2022/02/24-17:45:34.411 25f9 Generated table #581@1: 113731 keys, 2266825 bytes
+2022/02/24-17:45:34.473 25f9 Generated table #582@1: 12977 keys, 273902 bytes
+2022/02/24-17:45:34.473 25f9 Compacted 1@1 + 10@2 files => 22213523 bytes
+2022/02/24-17:45:34.593 25f9 compacted to: files[ 0 1 15 0 0 0 0 ]
+2022/02/24-17:45:34.595 25f9 Delete type=2 #562
+2022/02/24-17:45:34.595 25f9 Delete type=2 #560
+2022/02/24-17:45:34.595 25f9 Delete type=2 #564
+2022/02/24-17:45:34.595 25f9 Delete type=2 #565
+2022/02/24-17:45:34.595 25f9 Delete type=2 #559
+2022/02/24-17:45:34.595 25f9 Delete type=2 #570
+2022/02/24-17:45:34.595 25f9 Delete type=2 #557
+2022/02/24-17:45:34.596 25f9 Delete type=2 #561
+2022/02/24-17:45:34.596 25f9 Delete type=2 #558
+2022/02/24-17:45:34.596 25f9 Delete type=2 #569
+2022/02/24-17:45:34.596 25f9 Delete type=2 #556
+2022/02/24-17:45:34.596 25f9 Delete type=2 #563

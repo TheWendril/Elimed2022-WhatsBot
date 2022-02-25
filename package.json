@@ -1,0 +1,24 @@
+{
+  "name": "Elimed2022-WhatsBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheWendril/Elimed2022-WhatsBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheWendril/Elimed2022-WhatsBot/issues"
+  },
+  "homepage": "https://github.com/TheWendril/Elimed2022-WhatsBot#readme",
+  "dependencies": {
+    "venom-bot": "^4.0.6"
+  }
+}
