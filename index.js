@@ -1,3 +1,3 @@
-import {startAttendanceSession} from './sessions/attendance.js'
+import {startAttendanceSession} from './src/sessions/attendance.js'
 
 startAttendanceSession();

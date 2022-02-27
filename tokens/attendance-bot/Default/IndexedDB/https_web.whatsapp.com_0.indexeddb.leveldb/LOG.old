@@ -1,6 +1,14 @@
-2022/02/25-09:53:06.290 4536 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/02/25-09:53:06.290 4536 Recovering log #706
-2022/02/25-09:53:06.379 4536 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000706.log 
-2022/02/25-09:53:48.084 4558 Level-0 table #711: started
-2022/02/25-09:53:48.214 4558 Level-0 table #711: 1045144 bytes OK
-2022/02/25-09:53:48.281 4558 Delete type=0 #706
+2022/02/27-14:17:50.991 1c71 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/27-14:17:50.991 1c71 Recovering log #59
+2022/02/27-14:17:51.186 1c71 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000059.log 
+2022/02/27-14:18:17.755 1c72 Level-0 table #65: started
+2022/02/27-14:18:17.878 1c72 Level-0 table #65: 1275227 bytes OK
+2022/02/27-14:18:17.887 1c72 Delete type=0 #59
+2022/02/27-14:18:35.134 1c76 Compacting 1@1 + 2@2 files
+2022/02/27-14:18:35.372 1c76 Generated table #66@1: 40033 keys, 2241186 bytes
+2022/02/27-14:18:35.459 1c76 Generated table #67@1: 44254 keys, 1294801 bytes
+2022/02/27-14:18:35.459 1c76 Compacted 1@1 + 2@2 files => 3535987 bytes
+2022/02/27-14:18:35.470 1c76 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/02/27-14:18:35.470 1c76 Delete type=2 #61
+2022/02/27-14:18:35.470 1c76 Delete type=2 #62
+2022/02/27-14:18:35.470 1c76 Delete type=2 #65
