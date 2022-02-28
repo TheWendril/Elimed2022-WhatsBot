@@ -1,23 +1,33 @@
 import { create } from 'venom-bot'
 import {botTextsPTBR} from './config.js'
 import { commander } from './attendance_flow/botStages.js';
-import {ActiveClients} from '../clients/activeClients'
+import {ActiveClients} from '../clients/activeClients.js'
 
-
-const activeClients = new ActiveClients();
-
+let activeClients = new ActiveClients();
 
 async function startAttendance(client){
 
     client.onMessage(async message => {
 
+        console.log('MENSAGEM FROM: ' + message.from);
+
         let actualClient = activeClients.inList(message.from);
 
         if(actualClient && actualClient.status){
 
-            client.sendText(actualClient.from, commander(actualClient));
+            client.sendText(actualClient.from, commander(actualClient, message))
+                .then(result => {console.log(result)})
+                .catch(err => {console.log(err)});
+
+
+            if(actualClient.stage === 100)
+                activeClients.removeFromList(actualClient.from);
+
+            else if(actualClient.stage === 101)
+                activeClients.removeFromList(actualClient.from);
 
         }
+
         else{
 
             actualClient = {status: true, from: message.from, stage: 1}
@@ -32,18 +42,16 @@ async function startAttendance(client){
                 .catch(err => {console.error(err)});
         }
 
-        await client.returnReply('Isso é uma resposta');
-
     });
 
 
     client.onAck(ack => {
         
         if(ack.status === -6)
-            console.log('client inativo');
+            console.log('CLIENTE INATIVO');
 
-        if(ack.status === -2)
-            console.log('cliente expirado');
+        else if(ack.status === -2)
+            console.log('CLIENTE EXPIRADO');
 
     });
 }

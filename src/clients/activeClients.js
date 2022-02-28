@@ -5,20 +5,22 @@
 export class ActiveClients{
 
 
-    Clients = []
+    constructor(){
 
+        this.Clients = []
+    }
 
     inList(from){
 
-        for(var i=0 ; i<from.length; i++)
-            if(Clients[i].from == from)
+        for(var i = 0; i < this.Clients.length; i++)
+            if(this.Clients[i].from == from)
                 return this.Clients[i];
 
         return false;
     }
 
     pushInList(client){
-        this.Clients.push(Clients);
+        this.Clients.push(client);
     }
 
     removeFromList(from){

@@ -1,3 +1,14 @@
-2022/02/27-19:01:12.949 956 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/02/27-19:01:12.949 956 Recovering log #64
-2022/02/27-19:01:12.968 956 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000064.log 
+2022/02/28-08:19:15.214 1b0d Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/28-08:19:15.214 1b0d Recovering log #64
+2022/02/28-08:19:15.407 1b0d Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance-bot/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000064.log 
+2022/02/28-08:19:33.259 1b55 Level-0 table #70: started
+2022/02/28-08:19:33.340 1b55 Level-0 table #70: 1271897 bytes OK
+2022/02/28-08:19:33.361 1b55 Delete type=0 #64
+2022/02/28-08:19:46.147 1b50 Compacting 1@1 + 2@2 files
+2022/02/28-08:19:46.394 1b50 Generated table #71@1: 39629 keys, 2237895 bytes
+2022/02/28-08:19:46.509 1b50 Generated table #72@1: 50125 keys, 1556556 bytes
+2022/02/28-08:19:46.509 1b50 Compacted 1@1 + 2@2 files => 3794451 bytes
+2022/02/28-08:19:46.518 1b50 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/02/28-08:19:46.518 1b50 Delete type=2 #67
+2022/02/28-08:19:46.518 1b50 Delete type=2 #66
+2022/02/28-08:19:46.518 1b50 Delete type=2 #70
