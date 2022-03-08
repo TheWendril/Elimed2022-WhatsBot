@@ -15,7 +15,7 @@ async function startAttendance(client){
 
         if(actualClient && actualClient.status){
 
-            client.sendText(actualClient.from, commander(actualClient, message))
+            await client.sendText(actualClient.from, commander(actualClient, message))
                 .then(result => {console.log(result)})
                 .catch(err => {console.log(err)});
 
@@ -30,8 +30,10 @@ async function startAttendance(client){
 
         else{
 
-            actualClient = {status: true, from: message.from, stage: 1}
+            actualClient = {status: true, from: message.from, stage: 0}
             activeClients.pushInList(actualClient);
+
+            console.log('NOVO CLIENTE');
 
             await client.sendText(message.from, botTextsPTBR.welcome)
                 .then(result => {console.log(result)})
@@ -41,6 +43,7 @@ async function startAttendance(client){
                 .then(result => {console.log(result)})
                 .catch(err => {console.error(err)});
         }
+
 
     });
 

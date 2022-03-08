@@ -25,8 +25,8 @@ export class ActiveClients{
 
     removeFromList(from){
 
-        for(var i=0 ; i<from.length; i++)
-            if(Clients[i].from == from)
+        for(var i = 0; i < this.Clients.length; i++)
+            if(this.Clients[i].from == from)
                 this.Clients.slice(i,i);
     }
 
