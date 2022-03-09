@@ -16,9 +16,13 @@ export class Clients{
 
     removeClient(phone){
 
+        console.log(this.attendanceClients);
+
         for(var i = 0; i < this.attendanceClients.length; i++)
             if(this.attendanceClients[i].phone == phone)
-                this.attendanceClients.splice(i, i);
+                this.attendanceClients.splice(i, 1);
+
+        console.log(this.attendanceClients);
     }
 
 
@@ -26,9 +30,17 @@ export class Clients{
 
         for(var i = 0; i < this.attendanceClients.length; i++)
             if(this.attendanceClients[i].phone == phone)
-                return this.attendanceClients[i];
+                return true;
     
         return false; 
     }
 
+    getClient(phone){
+
+        for(var i = 0; i < this.attendanceClients.length; i++)
+            if(this.attendanceClients[i].phone == phone)
+                return this.attendanceClients[i];
+
+        return false; 
+    }
 }
