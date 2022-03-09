@@ -5,7 +5,7 @@ export class Clients{
         this.attendanceClients = [];
     }
 
-    
+
     createClient(phone, stage, active){
 
         this.attendanceClients.push(
