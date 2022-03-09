@@ -1,5 +1,5 @@
-import { attendanceRunner } from './src/attendance-bot/attendanceFlow.js'
-import { elimRunner } from './src/elim-bot/elimFlow.js'
+import {attendanceRunner} from './src/attendance-bot/attendanceFlow.js'
+import {elimRunner} from './src/elim-bot/elimFlow.js'
 import {pediatricsRunner} from './src/pediatrics-bot/pediatricsFlow.js'
 import {businessRunner} from './src/business-bot/businessFlow.js'
 import {create} from 'venom-bot'
