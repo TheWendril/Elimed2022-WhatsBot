@@ -1,18 +1,4 @@
-2022/03/08-14:06:31.482 5375 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/pediatrics/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/08-14:06:31.483 5375 Recovering log #3
-2022/03/08-14:06:31.578 5375 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/pediatrics/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000003.log 
-2022/03/08-14:07:00.311 5360 Level-0 table #5: started
-2022/03/08-14:07:00.334 5360 Level-0 table #5: 336375 bytes OK
-2022/03/08-14:07:00.343 5360 Delete type=0 #3
-2022/03/08-14:07:00.345 5360 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/03/08-14:07:00.692 5375 Level-0 table #7: started
-2022/03/08-14:07:00.699 5375 Level-0 table #7: 10923 bytes OK
-2022/03/08-14:07:00.713 5375 Delete type=0 #4
-2022/03/08-14:07:00.713 5375 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/03/08-14:07:00.713 5375 Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x01\x02\x01\x04\x00w\x00a\x00w\x00c' @ 14497 : 1
-2022/03/08-14:07:00.713 5375 Compacting 1@1 + 1@2 files
-2022/03/08-14:07:00.734 5375 Generated table #8@1: 60 keys, 1156 bytes
-2022/03/08-14:07:00.734 5375 Compacted 1@1 + 1@2 files => 1156 bytes
-2022/03/08-14:07:00.744 5375 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/03/08-14:07:00.744 5375 Delete type=2 #7
-2022/03/08-14:07:00.744 5375 Manual compaction at level-1 from '\x00\x03\x01\x02\x01\x04\x00w\x00a\x00w\x00c' @ 14497 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/03/08-14:08:20.008 5520 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/pediatrics/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/08-14:08:20.008 5520 Recovering log #6
+2022/03/08-14:08:20.028 5520 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/pediatrics/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000006.log 
+2022/03/08-14:08:20.028 5520 Delete type=2 #5
