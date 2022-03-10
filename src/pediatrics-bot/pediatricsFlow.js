@@ -1,5 +1,5 @@
 import {Clients} from '../clients.js'
-import {config} from './config.js'
+import {pediatricConfig} from './config.js'
 import {BotRunner} from '../botRunner.js'
 
 
@@ -18,17 +18,16 @@ class BusinessRunner extends BotRunner {
             if(client.messages[client.messages.length - 1] != 1 && 
                 client.messages[client.messages.length - 1] != 2 && 
                 client.messages[client.messages.length - 1] != 3 && 
-                client.messages[client.messages.length - 1] != 4 && 
-                client.messages[client.messages.length - 1] != 5)
+                client.messages[client.messages.length - 1] != 4)
                 return "Por favor, digite uma opção válida";
 
             client.stage = 100;
-            return config.flow.stage0;
+            return pediatricConfig.flow.stage0;
         }
     
         return "ocorreu um erro";
     }
 }
 
-export const pediatricsRunner = new BusinessRunner(pediatricsClients, config);
+export const pediatricsRunner = new BusinessRunner(pediatricsClients, pediatricConfig);
 

@@ -1,23 +1,10 @@
-2022/03/09-14:42:32.087 e988 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/03/09-14:42:32.088 e988 Recovering log #4
-2022/03/09-14:42:32.270 e988 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000004.log 
-2022/03/09-14:42:44.602 e985 Level-0 table #8: started
-2022/03/09-14:42:44.692 e985 Level-0 table #8: 1422625 bytes OK
-2022/03/09-14:42:44.720 e985 Delete type=0 #4
-2022/03/09-14:42:44.932 e985 Level-0 table #10: started
-2022/03/09-14:42:44.977 e985 Level-0 table #10: 1069024 bytes OK
-2022/03/09-14:42:44.985 e985 Delete type=0 #7
-2022/03/09-14:42:44.988 e985 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\xc8\x13\x00l\x00r\x00u\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00m\x00e\x00t\x00a\x00-\x00i\x00n\x00f\x00o' @ 141655 : 0
-2022/03/09-14:42:44.988 e985 Compacting 1@0 + 1@1 files
-2022/03/09-14:42:45.145 e985 Generated table #11@0: 46098 keys, 721312 bytes
-2022/03/09-14:42:45.145 e985 Compacted 1@0 + 1@1 files => 721312 bytes
-2022/03/09-14:42:45.158 e985 compacted to: files[ 0 1 1 0 0 0 0 ]
-2022/03/09-14:42:45.158 e985 Delete type=2 #10
-2022/03/09-14:42:45.162 e985 Manual compaction at level-0 from '\x00\x04\x00\x00\xc8\x13\x00l\x00r\x00u\x00-\x00m\x00e\x00d\x00i\x00a\x00-\x00m\x00e\x00t\x00a\x00-\x00i\x00n\x00f\x00o' @ 141655 : 0 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
-2022/03/09-14:42:46.845 e985 Compacting 1@1 + 1@2 files
-2022/03/09-14:42:47.000 e985 Generated table #12@1: 367 keys, 30055 bytes
-2022/03/09-14:42:47.000 e985 Compacted 1@1 + 1@2 files => 30055 bytes
-2022/03/09-14:42:47.009 e985 compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/03/09-14:42:47.009 e985 Delete type=2 #5
-2022/03/09-14:42:47.009 e985 Delete type=2 #8
-2022/03/09-14:42:47.009 e985 Delete type=2 #11
+2022/03/10-08:40:30.262 9b01 Reusing MANIFEST /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/03/10-08:40:30.262 9b01 Recovering log #14
+2022/03/10-08:40:30.546 9b01 Reusing old log /home/wendril/Documentos/Elimed2022-WhatsBot/tokens/attendance/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000014.log 
+2022/03/10-08:40:42.139 9b06 Level-0 table #19: started
+2022/03/10-08:40:42.273 9b06 Level-0 table #19: 1256718 bytes OK
+2022/03/10-08:40:42.283 9b06 Delete type=0 #14
+2022/03/10-08:40:44.689 9b01 Compacting 1@1 + 1@2 files
+2022/03/10-08:40:44.824 9b01 Generated table #20@1: 11146 keys, 592198 bytes
+2022/03/10-08:40:44.824 9b01 Compacted 1@1 + 1@2 files => 592198 bytes
+2022/03/10-08:40:44.833 9b01 compacted to: files[ 0 0 1 0 0 0 0 ]
