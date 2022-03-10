@@ -1,5 +1,5 @@
 import {Clients} from '../clients.js'
-import {config} from './config.js'
+import {businessConfig} from './config.js'
 import {BotRunner} from '../botRunner.js'
 
 
@@ -24,12 +24,12 @@ class BusinessRunner extends BotRunner {
     
 
             client.stage = 100;
-            return config.flow.stage0;
+            return businessConfig.flow.stage0;
         }
     
         return "ocorreu um erro";
     }
 }
 
-export const businessRunner = new BusinessRunner(businessClients, config);
+export const businessRunner = new BusinessRunner(businessClients, businessConfig);
 

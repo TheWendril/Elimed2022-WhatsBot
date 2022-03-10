@@ -1,6 +1,6 @@
 import { Clients } from '../clients.js'
 import { BotRunner } from '../botRunner.js';
-import { config } from './config.js'
+import { attendanceConfig } from './config.js'
 
 // Configurações de suply
 import { pediatricConfig } from '../pediatrics-bot/config.js';
@@ -21,24 +21,24 @@ class AttendanceRunner extends BotRunner {
             let linktosend = '';
     
             if(client.messages[client.messages.length - 1] == 1){
-                linktosend = config.flow.linkBusiness;
+                linktosend = attendanceConfig.flow.linkBusiness;
             }
             else if(client.messages[client.messages.length - 1] == 2){
-                linktosend = config.flow.linkElim;
+                linktosend = attendanceConfig.flow.linkElim;
             }
             else if(client.messages[client.messages.length - 1] == 3){
                 
                 client.stage = 1;
-                linktosend = config.flow.linkPedia;
+                linktosend = attendanceConfig.flow.linkPedia;
 
                 // Código novo apenas de emergência
                 return pediatricConfig.options;
             }
             else
-                return config.flow.flowError;
+                return attendanceConfig.flow.flowError;
     
             client.stage = 100;
-            return config.flow.stage0 + '\n' + linktosend;
+            return attendanceConfig.flow.stage0 + '\n' + linktosend;
         }
         else if(client.stage === 1){
 
@@ -57,4 +57,4 @@ class AttendanceRunner extends BotRunner {
     }
 }
 
-export const attendanceRunner = new AttendanceRunner(attendanceClients, config);
+export const attendanceRunner = new AttendanceRunner(attendanceClients, attendanceConfig);

@@ -1,5 +1,5 @@
 import {Clients} from '../clients.js'
-import {config} from './config.js'
+import {elimConfig} from './config.js'
 import {BotRunner} from '../botRunner.js'
 
 
@@ -24,11 +24,11 @@ class ElimRunner extends BotRunner {
     
 
             client.stage = 100;
-            return config.flow.stage0;
+            return elimConfig.flow.stage0;
         }
     
         return "ocorreu um erro";
     }
 }
 
-export const elimRunner = new ElimRunner(elimClients, config);
+export const elimRunner = new ElimRunner(elimClients, elimConfig);
