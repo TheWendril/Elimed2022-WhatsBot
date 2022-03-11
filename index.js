@@ -26,6 +26,8 @@ create('pediatrics')
 */
 
 // Bot de atendimento do saúde Elim
+/*
 create('elim')
     .then(client => elimRunner.start(client))
     .catch(err => console.error(err));
+*/
