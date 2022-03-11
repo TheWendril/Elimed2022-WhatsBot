@@ -21,9 +21,11 @@ class AttendanceRunner extends BotRunner {
             let linktosend = '';
     
             if(client.messages[client.messages.length - 1] == 1){
+
                 linktosend = attendanceConfig.flow.linkBusiness;
             }
             else if(client.messages[client.messages.length - 1] == 2){
+
                 linktosend = attendanceConfig.flow.linkElim;
             }
             else if(client.messages[client.messages.length - 1] == 3){
@@ -34,12 +36,28 @@ class AttendanceRunner extends BotRunner {
                 // Código novo apenas de emergência
                 return pediatricConfig.options;
             }
+            else if(client.messages[client.messages.length - 1] == 4){
+                
+                client.stage = 101;
+                return attendanceConfig.flow.attendanceDefault;
+            }
+            
+            else if(client.messages[client.messages.length - 1] == 5){
+
+                client.stage = 101;
+                return attendanceConfig.flow.question + attendanceConfig.flow.message101;
+            }
+            else if(client.messages[client.messages.length - 1] == 6){
+                client.stage = 100;
+                return attendanceConfig.flow.goodbye;
+            }
             else
                 return attendanceConfig.flow.flowError;
     
             client.stage = 100;
             return attendanceConfig.flow.stage0 + '\n' + linktosend;
         }
+    
         else if(client.stage === 1){
 
             if(client.messages[client.messages.length - 1] != 1 && 
@@ -48,11 +66,11 @@ class AttendanceRunner extends BotRunner {
                 client.messages[client.messages.length - 1] != 4)
                 return "Por favor, digite uma opção válida";
 
-            client.stage = 100;
-            return pediatricConfig.flow.stage0;
+            client.stage = 101;
+            return pediatricConfig.flow.stage0 + attendanceConfig.flow.message101;
         }
         
-        return "Mensagem padrão de erro!";
+        
 
     }
 }
