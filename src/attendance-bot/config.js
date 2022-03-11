@@ -4,8 +4,8 @@ export const attendanceConfig = {
 
     flow: {
         linkPedia: "http://linkpedi.com",
-        linkBusiness: "http://linkbusiness.com",
-        linkElim: "http://linkelim.com",
+        linkBusiness: "https://wa.me/message/42GEGMDROL5EG1?src=qr",
+        linkElim: "https://wa.me/message/GMQ6EFB7NDLBG1",
         stage0: "🤖 A seguir, enviarei um link para outro chat responsável pela área que desejas 😁\n Não se preocupe, estarei lá também para te auxiliar, até logo!",
         flowError: "Ops! Parece que você digitou a opção errada, tente novamente"
     }
