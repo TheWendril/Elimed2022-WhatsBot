@@ -10,6 +10,10 @@ export class BotRunner{
 
         client.onMessage(async message => {
 
+            console.log(message);
+            if(message.type != 'chat' || message.isGroupMsg)
+                return false;
+
             if(message.body.toUpperCase() == 'OLA SARAH' && this._Clients.hasClient(message.from))
                 this._Clients.removeClient(message.from);
             

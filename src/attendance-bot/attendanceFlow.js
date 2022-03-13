@@ -39,7 +39,7 @@ class AttendanceRunner extends BotRunner {
             else if(client.messages[client.messages.length - 1] == 4){
                 
                 client.stage = 101;
-                return attendanceConfig.flow.attendanceDefault;
+                return attendanceConfig.flow.attendanceDefault + attendanceConfig.flow.message101;
             }
             
             else if(client.messages[client.messages.length - 1] == 5){

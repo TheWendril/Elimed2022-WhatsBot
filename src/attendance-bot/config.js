@@ -1,6 +1,6 @@
 export const attendanceConfig = {
-    initialText: "🤖 Olá, me chamo Sarah e sou a atendente virtual da clínica Elimed! 🏥 \nPara começar selecione uma área na qual deseja tratar e enviaremos um link para contato!",
-    options: "1️⃣ Central de Empresas\n2️⃣ Central Saúde Elim\n3️⃣ Central de Pediatria\n4️⃣ Marcação de ASO e exames laboratoriais\n5️⃣ Tirar dúvidas\n6️⃣ Cancelar",
+    initialText: "🤖 Olá, me chamo Sarah e sou a atendente virtual da clínica Elimed! 🏥 \nPara começar selecione uma área na qual deseja tratar.",
+    options: "1️⃣ Central de Empresas\n2️⃣ Central Saúde Elim\n3️⃣ Central de Pediatria\n4️⃣ Marcação de ASO e exames laboratoriais\n5️⃣ Tirar dúvidas\n6️⃣ Sair do bot",
 
     flow: {
         linkPedia: "http://linkpedi.com",
@@ -10,7 +10,7 @@ export const attendanceConfig = {
         flowError: "Ops! Parece que você digitou a opção errada, tente novamente",
         attendanceDefault: "Aguarde um minutinho, um(a) atendente irá te responder em breve!",
         question: "Digite sua dúvida, um(a) atendente irá te responder em breve!",
-        message101: "\n\n🤖 Caso deseje conversar novamente comigo, digite exatamente essas palavras 'ola sarah' sem aspas!",
+        message101: "\n\n🤖 Caso deseje conversar novamente comigo, digite exatamente essas palavras 'ola sarah' sem aspas e acentos!",
         goodbye: '🤖 Tudo bem! Sempre que precisar, basta me enviar uma mensagem\nAté mais! 👋'
     }
 }
