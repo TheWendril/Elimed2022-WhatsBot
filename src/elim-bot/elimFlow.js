@@ -22,7 +22,11 @@ class ElimRunner extends BotRunner {
                 client.messages[client.messages.length - 1] != 5 &&
                 client.messages[client.messages.length - 1] != 6)
                 return "Por favor, digite uma opção válida";
-    
+                
+            if(client.messages[client.messages.length - 1] == 5){
+                client.stage = 100;
+                return elimConfig.flow.messagelinkConsultory + elimConfig.flow.linkConsultory;
+            }
 
             client.stage = 101;
             return elimConfig.flow.stage0 + elimConfig.flow.message101;

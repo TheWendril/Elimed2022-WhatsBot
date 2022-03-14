@@ -30,22 +30,17 @@ class AttendanceRunner extends BotRunner {
             }
             else if(client.messages[client.messages.length - 1] == 3){
                 
-                client.stage = 1;
+                client.stage = 100;
                 linktosend = attendanceConfig.flow.linkPedia;
-
-                // Código novo apenas de emergência
-                return pediatricConfig.options;
             }
             else if(client.messages[client.messages.length - 1] == 4){
-                
-                client.stage = 101;
-                return attendanceConfig.flow.attendanceDefault + attendanceConfig.flow.message101;
-            }
-            
-            else if(client.messages[client.messages.length - 1] == 5){
 
                 client.stage = 101;
                 return attendanceConfig.flow.question + attendanceConfig.flow.message101;
+            }
+            else if(client.messages[client.messages.length - 1] == 5){
+                client.stage = 100;
+                linktosend = attendanceConfig.flow.elimedFloresLink;
             }
             else if(client.messages[client.messages.length - 1] == 6){
                 client.stage = 100;
@@ -56,21 +51,7 @@ class AttendanceRunner extends BotRunner {
     
             client.stage = 100;
             return attendanceConfig.flow.stage0 + '\n' + linktosend;
-        }
-    
-        else if(client.stage === 1){
-
-            if(client.messages[client.messages.length - 1] != 1 && 
-                client.messages[client.messages.length - 1] != 2 && 
-                client.messages[client.messages.length - 1] != 3 && 
-                client.messages[client.messages.length - 1] != 4)
-                return "Por favor, digite uma opção válida";
-
-            client.stage = 101;
-            return pediatricConfig.flow.stage0 + attendanceConfig.flow.message101;
-        }
-        
-        
+        }    
 
     }
 }
