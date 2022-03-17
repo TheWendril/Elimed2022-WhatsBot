@@ -21,14 +21,13 @@ class BusinessRunner extends BotRunner {
                 client.messages[client.messages.length - 1] != 4 && 
                 client.messages[client.messages.length - 1] != 5 && 
                 client.messages[client.messages.length - 1] != 6 && 
-                client.messages[client.messages.length - 1] != 7)
+                client.messages[client.messages.length - 1] != 7 && 
+                client.messages[client.messages.length - 1] != 8)
                 return "Por favor, digite uma opção válida";
 
             client.stage = 101;
             return pediatricConfig.flow.stage0 + pediatricConfig.flow.message101;
         }
-    
-        return "ocorreu um erro";
     }
 }
 

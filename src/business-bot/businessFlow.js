@@ -20,7 +20,8 @@ class BusinessRunner extends BotRunner {
                 client.messages[client.messages.length - 1] != 3 && 
                 client.messages[client.messages.length - 1] != 4 && 
                 client.messages[client.messages.length - 1] != 5 &&
-                client.messages[client.messages.length - 1] != 6)
+                client.messages[client.messages.length - 1] != 6 &&
+                client.messages[client.messages.length - 1] != 7)
                 return "Por favor, digite uma opção válida";
     
 
