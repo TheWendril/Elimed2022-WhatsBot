@@ -25,6 +25,11 @@ class BusinessRunner extends BotRunner {
                 client.messages[client.messages.length - 1] != 8)
                 return "Por favor, digite uma opção válida";
 
+            if(client.messages[client.messages.length - 1] == 8){
+                client.stage = 101;
+                return pediatricConfig.flow.message101;
+            }
+
             client.stage = 101;
             return pediatricConfig.flow.stage0 + pediatricConfig.flow.message101;
         }

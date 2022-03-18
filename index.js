@@ -13,7 +13,7 @@ create('attendance')
 */
 
 // Bot de atendimento empresarial
-/*
+
 create('business')
     .then(client => businessRunner.start(client))
     .catch(err => console.error(err));
@@ -24,9 +24,8 @@ create('pediatrics')
     .then(client => pediatricsRunner.start(client))
     .catch(err => console.error(err));
 
-*/
-// Bot de atendimento do saúde Elim
 
+// Bot de atendimento do saúde Elim
 create('elim')
     .then(client => elimRunner.start(client))
     .catch(err => console.error(err));

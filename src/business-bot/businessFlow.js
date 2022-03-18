@@ -28,8 +28,6 @@ class BusinessRunner extends BotRunner {
             client.stage = 101;
             return businessConfig.flow.stage0 + businessConfig.flow.message101;
         }
-    
-        return "ocorreu um erro";
     }
 }
 
