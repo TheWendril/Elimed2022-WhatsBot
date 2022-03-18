@@ -1,4 +1,4 @@
-import {botLinks} from '../links'
+import {botLinks} from '../links.js'
 
 export const businessConfig = {
     initialText: "❗Este agora é um número de atendimento empresarial! Para informações gerais ou saúde elim, acesse esse link:\n" + botLinks.linkElim + "\n\n🤖 Olá, eu sou a Sarah, assistente virtual da Elimed! 🏥\n Selecione a opção que desejas digitando (apenas) o número correspondente",
