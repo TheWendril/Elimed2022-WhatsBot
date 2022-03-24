@@ -6,6 +6,7 @@ export const businessConfig = {
 
     flow: {
         stage0: "Ok, nosso(a) atendente irá responder em breve, aguarde um pouco!",
-        message101: "\n\n🤖 Caso deseje conversar novamente comigo, digite exatamente essas palavras 'ola sarah' sem aspas e acentos!"
+        message101: "\n\n🤖 Caso deseje conversar novamente comigo, digite exatamente essas palavras 'ola sarah' sem aspas e acentos!",
+        workHour: "🤖 Nosso horário de funcionamento é de 07:00hrs às 17:00hrs"
     }
 }
