@@ -40,7 +40,7 @@ class BusinessRunner extends BotRunner {
 
             if(client.messages[client.messages.length - 1] == 9){
                 client.stage = 100;
-                return pediatricConfig.flow.messagelinkConsultory + botLinks.linksales;
+                return pediatricConfig.flow.messagelinkConsultory + botLinks.linkElim;
             }
 
             if(client.messages[client.messages.length - 1] == 10){
